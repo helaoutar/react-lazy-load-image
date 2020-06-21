@@ -1,5 +1,7 @@
-import React from 'react'
-import { shallow } from "enzyme";
+/* eslint-disable no-undef */
+
+import React from 'react';
+import { shallow } from 'enzyme';
 import LazyLoadImage from './LazyLoadImage';
 
 describe('LazyLoadImage', () => {

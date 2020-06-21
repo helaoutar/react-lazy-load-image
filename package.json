@@ -1,0 +1,26 @@
+{
+  "name": "react-lazy-load-image",
+  "version": "1.0.0",
+  "description": "This is a react component that loads images as soon as they start showing in the viewport",
+  "main": "src/index.jsx",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "lazy-load",
+    "image"
+  ],
+  "author": "Hamza El Aoutar <elaoutarhamza@gmail.com> (https://linkedin.com/helaoutar)",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.3.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.4"
+  }
+}

@@ -12,7 +12,7 @@ const LazyLoadImage = ({
   onLoad,
   ...rest
 }) => {
-  const [ref, inView] = useInView({ root: container || window, threshold: 0 });
+  const [ref, inView] = useInView({ root: container || document, threshold: 0 });
   const [img, setImg] = useState('');
 
   useEffect(() => { setImg(''); }, [src]);

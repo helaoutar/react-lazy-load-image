@@ -10,3 +10,4 @@ notifications:
   email: false
 after_success:
   - npm run report-coverage
+  - npm run release

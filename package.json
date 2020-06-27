@@ -1,12 +1,13 @@
 {
   "name": "react-lazy-load-image",
   "version": "1.0.0",
-  "description": "This is a react component that loads images as soon as they start showing in the viewport",
+  "description": "React Lazy load image component",
   "main": "src/index.jsx",
   "scripts": {
     "test": "jest --coverage",
     "lint": "eslint --ext .jsx,.js src",
-    "validate": "npm-run-all --parallel test lint"
+    "validate": "npm-run-all --parallel test lint",
+    "report-coverage": "cat ./coverage/lcov.info | codecov"
   },
   "keywords": [
     "lazy-load",
@@ -25,6 +26,7 @@
     "@babel/preset-env": "^7.10.3",
     "@babel/preset-react": "^7.10.1",
     "babel-loader": "^8.1.0",
+    "codecov": "^3.7.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "eslint": "7.2.0",

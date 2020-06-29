@@ -22,8 +22,8 @@
   "author": "Hamza El Aoutar <elaoutarhamza@gmail.com> (https://linkedin.com/helaoutar)",
   "license": "MIT",
   "peerDependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react": ">= 16.8.0",
+    "react-dom": ">= 16.8.0"
   },
   "dependencies": {
     "prop-types": "^15.7.2",
